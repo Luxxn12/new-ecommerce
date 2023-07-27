@@ -5,12 +5,13 @@ import { Box, Flex, Image } from "@mantine/core";
 export default function Page() {
   return (
     <>
-      <Box
+       <Box
         sx={{
           height: "100vh",
         }}
       >
         <Flex
+          gap={"lg"}
           justify="center"
           align="center"
           direction="column"
@@ -18,9 +19,11 @@ export default function Page() {
           h={"100%"}
         >
           <Box component="a" href="/">
-            <Image maw={200} radius="md" src="/logo.png" alt="logo" />
+            <Image maw={400} radius="md" src="/logo.png" alt="logo" />
           </Box>
-          <SignUp />
+          <Box>
+            <SignUp />
+          </Box>
         </Flex>
       </Box>
     </>

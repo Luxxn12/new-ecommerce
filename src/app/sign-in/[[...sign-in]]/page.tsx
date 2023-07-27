@@ -12,16 +12,19 @@ export default function Page() {
         }}
       >
         <Flex
+          gap={"lg"}
           justify="center"
           align="center"
           direction="column"
           wrap="wrap"
           h={"100%"}
         >
-            <Box component="a" href="/">
-              <Image maw={200} radius="md" src="/logo.png" alt="logo" />
-            </Box>
-          <SignIn />
+          <Box component="a" href="/">
+            <Image maw={400} radius="md" src="/logo.png" alt="logo" />
+          </Box>
+          <Box>
+            <SignIn />
+          </Box>
         </Flex>
       </Box>
     </>
