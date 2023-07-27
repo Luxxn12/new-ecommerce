@@ -13,7 +13,9 @@ function Dashboard() {
     >
       <Box p={20}>
         <Group position="apart">
-          <Text color="white" fw={700}>Dashboard</Text>
+          <Text color="white" fw={700}>
+            Dashboard
+          </Text>
           <UserButton afterSignOutUrl="/" />
         </Group>
       </Box>

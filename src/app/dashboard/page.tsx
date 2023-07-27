@@ -1,10 +1,10 @@
-import Dashboard from '@/components/dashboard';
-import React from 'react';
+import Dashboard from "@/components/dashboard";
+import React from "react";
 
 function Page() {
   return (
     <>
-    <Dashboard/>
+      <Dashboard />
     </>
   );
 }

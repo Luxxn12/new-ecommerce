@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import { SignUp } from "@clerk/nextjs";
-import { Box, Flex, Image } from "@mantine/core";
+import { Box, Flex, Image, Text } from "@mantine/core";
 
 export default function Page() {
   return (
     <>
-       <Box
+      <Box
         sx={{
           height: "100vh",
         }}
@@ -22,6 +22,7 @@ export default function Page() {
             <Image maw={400} radius="md" src="/logo.png" alt="logo" />
           </Box>
           <Box>
+            <Text>Lukman ganteng</Text>
             <SignUp />
           </Box>
         </Flex>

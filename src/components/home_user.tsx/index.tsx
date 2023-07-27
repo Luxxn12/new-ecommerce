@@ -1,5 +1,13 @@
 import { UserButton } from "@clerk/nextjs";
-import { ActionIcon, Box, Button, Center, Group, Image, Text } from "@mantine/core";
+import {
+  ActionIcon,
+  Box,
+  Button,
+  Center,
+  Group,
+  Image,
+  Text,
+} from "@mantine/core";
 import React from "react";
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 import { BsCartPlus } from "react-icons/bs";
@@ -19,22 +27,22 @@ function HomeUserTsx() {
       >
         <Box pl={30} pr={30}>
           <Group position="apart">
-            <Image maw={80}radius="md"  src="/logo.png" alt="logo"/>
+            <Image maw={80} radius="md" src="/logo.png" alt="logo" />
             <Box>
               <Group>
-                  <ActionIcon color="dark" component="a" href="/sign-in">
-                    <AiOutlineUser size={20} color />
-                    <UserButton afterSignOutUrl="/" />
-                  </ActionIcon>
-                  <ActionIcon color="dark" component="a" href="/keranjang">
-                    <BsCartPlus size={20} color  />
-                  </ActionIcon>
+                <ActionIcon color="dark" component="a" href="/sign-in">
+                  <AiOutlineUser size={20} color />
+                  <UserButton afterSignOutUrl="/" />
+                </ActionIcon>
+                <ActionIcon color="dark" component="a" href="/keranjang">
+                  <BsCartPlus size={20} color />
+                </ActionIcon>
               </Group>
             </Box>
           </Group>
-          <HeadersAtas/>
-          <BarangCarousel/>
-          <CategoriBarang/>
+          <HeadersAtas />
+          <BarangCarousel />
+          <CategoriBarang />
         </Box>
       </Box>
     </>

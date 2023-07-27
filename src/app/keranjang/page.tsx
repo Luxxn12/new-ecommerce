@@ -1,10 +1,10 @@
-import KeranjangTsx from '@/components/keranjang.tsx';
-import React from 'react';
+import KeranjangTsx from "@/components/keranjang.tsx";
+import React from "react";
 
 function Page() {
   return (
     <>
-    <KeranjangTsx/>
+      <KeranjangTsx />
     </>
   );
 }

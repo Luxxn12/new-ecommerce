@@ -18,7 +18,9 @@ function CategoriBarang() {
   return (
     <>
       <Box pt={30}>
-        <Text fw={700} fz={20}>Headphones For You!</Text>
+        <Text fw={700} fz={20}>
+          Headphones For You!
+        </Text>
         <SimpleGrid
           cols={4}
           spacing="lg"
@@ -30,28 +32,28 @@ function CategoriBarang() {
           pt={15}
         >
           <Box>
-            <Barang/>
+            <Barang />
           </Box>
           <Box>
-          <Barang/>
+            <Barang />
           </Box>
           <Box>
-          <Barang/>
+            <Barang />
           </Box>
           <Box>
-          <Barang/>
+            <Barang />
           </Box>
           <Box>
-            <Barang/>
+            <Barang />
           </Box>
           <Box>
-          <Barang/>
+            <Barang />
           </Box>
           <Box>
-          <Barang/>
+            <Barang />
           </Box>
           <Box>
-          <Barang/>
+            <Barang />
           </Box>
         </SimpleGrid>
       </Box>

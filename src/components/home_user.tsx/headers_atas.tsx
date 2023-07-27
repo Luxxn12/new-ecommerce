@@ -15,7 +15,7 @@ import React from "react";
 function HeadersAtas() {
   return (
     <>
-      <Box >
+      <Box>
         <Box
           sx={{
             backgroundColor: "#FBEFE3",
@@ -33,9 +33,21 @@ function HeadersAtas() {
             <Box>
               <Center pt={40}>
                 <Container>
-                  <Text color={ColorFun.hijauTua} fw={700} fz={30}>Grab Upto 50% Off on</Text>
-                  <Text color={ColorFun.hijauTua} fw={700} fz={30}>Seleted Headhone</Text>
-                  <Button w={110} color="cyan.9" bg={ColorFun.hijauTua} mt={20} radius={20}>Buy Now</Button>
+                  <Text color={ColorFun.hijauTua} fw={700} fz={30}>
+                    Grab Upto 50% Off on
+                  </Text>
+                  <Text color={ColorFun.hijauTua} fw={700} fz={30}>
+                    Seleted Headhone
+                  </Text>
+                  <Button
+                    w={110}
+                    color="cyan.9"
+                    bg={ColorFun.hijauTua}
+                    mt={20}
+                    radius={20}
+                  >
+                    Buy Now
+                  </Button>
                 </Container>
               </Center>
             </Box>
